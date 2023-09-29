@@ -10,6 +10,7 @@ import Productdetails from './components/Productdetails/Productdetail';
 const App = () => {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/product' element={<Products />} />
